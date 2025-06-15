@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@theme {
+  /* color */
+
+  --color-green-500: #4ee1a0;
+  --color-gray-500: #d9d9d9;
+  --color-white: #ffffff;
+  --color-dark-500: #242424;
+  --color-dark-200: #979797;
+  --color-dark-400: #151515;
+
+  /* font */
+  --font-space-grotesk: Space Grotes, sans-serif;
+
+  /* text */
+  --text-2xl: 88px;
+  --text-xl: 48px;
+  --text-2lg: 32px;
+  --text-lg: 24px;
+  --text-md: 18px;
+
+  /* letter-spacing */
+  --tracking-xl: -2.5px;
+  --tracking-lg: -1.5px;
+
+  /* spacing */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 28px;
+  --spacing-8: 32px;
+  --spacing-9: 36px;
+  --spacing-10: 40px;
+  --spacing-11: 44px;
+  --spacing-12: 48px;
+  --spacing-13: 52px;
+  --spacing-14: 56px;
+  --spacing-15: 60px;
+  --spacing-16: 64px;
+  --spacing-17: 68px;
+  --spacing-18: 72px;
+  --spacing-19: 76px;
+  --spacing-20: 80px;
+  --spacing-21: 84px;
+  --spacing-22: 88px;
+  --spacing-23: 92px;
+  --spacing-24: 96px;
+  --spacing-25: 100px;
+  --spacing-26: 104px;
+  --spacing-27: 108px;
+  --spacing-28: 112px;
+  --spacing-29: 116px;
+  --spacing-30: 120px;
+  --spacing-31: 124px;
+  --spacing-32: 128px;
+  --spacing-33: 132px;
+  --spacing-34: 136px;
+  --spacing-35: 140px;
+  --spacing-36: 144px;
+  --spacing-37: 148px;
+  --spacing-38: 152px;
+  --spacing-39: 156px;
+  --spacing-40: 160px;
+  --spacing-41: 164px;
+  --spacing-42: 168px;
+  --spacing-43: 172px;
+  --spacing-44: 176px;
+  --spacing-45: 180px;
+  --spacing-46: 184px;
+  --spacing-47: 188px;
+  --spacing-48: 192px;
+  --spacing-49: 196px;
+  --spacing-50: 200px;
+
+  /* font-weight  */
+  --font-weight-bold: 900;
+  --font-weight-medium: 400;
+}
+
+@layer components {
+  .heading-xl {
+    font-size: var(--text-2xl);
+    line-height: var(--spacing-22);
+    letter-spacing: var(--tracking-xl);
+    color: var(--color-white);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .heading-lg {
+    font-size: var(--text-xl);
+    line-height: var(--spacing-14);
+    letter-spacing: var(--tracking-lg);
+    color: var(--color-white);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  .heading-md {
+    font-size: var(--text-lg);
+    line-height: var(--spacing-8);
+    color: var(--color-white);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .text-sm {
+    font-size: var(--text-md);
+    line-height: var(--spacing-7);
+    color: var(--color-gray-500);
+    font-weight: var(--font-weight-medium);
+  }
+
+  .custom-container {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
