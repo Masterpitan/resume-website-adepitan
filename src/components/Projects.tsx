@@ -14,7 +14,7 @@ const data: IProject[] = [
     url: "http://3.215.175.126/",
     image: "/imgs/sightings-page.jpg",
     title: "AWS-Flask",
-    stack: ["AWS", "Flask", "Terrafom"],
+    stack: ["AWS", "||", "Flask", "||", "Terrafom"],
   },
   {
     id: "2",
