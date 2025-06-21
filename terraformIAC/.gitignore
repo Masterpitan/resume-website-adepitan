@@ -1,0 +1,30 @@
+# Terraform generated files
+.terraform/           # Directory where Terraform stores downloaded plugins and modules
+*.tfplan              # Terraform plan files
+*.tfstate             # Local Terraform state file (use remote state instead)
+*.tfstate.backup      # Backup Terraform state files
+crash.log             # Terraform crash logs
+
+# Terraform configuration files (can contain sensitive info or local paths)
+.terraformrc
+terraform.rc
+
+# Override files (used for temporary local changes)
+*.override.tf
+*.override.tf.json
+
+# If you store any sensitive variables locally (e.g., a "terraform.tfvars" file not meant for sharing)
+# You should generally use environment variables or a secure backend for sensitive data.
+# If you have a specific sensitive variables file name you want to ignore:
+# secret.tfvars
+# *.auto.tfvars           # Automatically loaded variable definitions (if they contain sensitive data and are not meant for repo)
+# *.auto.tfvars.json
+
+# macOS specific files
+.DS_Store
+
+# Operating System generated files
+*.log                 # General log files
+*.zip                 # Archive files (if not part of a distributed module)
+*.tar.gz
+*.tgz

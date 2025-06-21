@@ -99,14 +99,14 @@ function Contact() {
                   type={field === "email" ? "email" : "text"}
                   id={field}
                   name={field}
-                  value={form[field as keyof FormData]}
+                  value={form[field as keyof IFormData]}
                   onChange={handleChange}
                   className="w-full bg-transparent border-b border-gray-500 focus:outline-none focus:border-green-500 p-1"
                 />
               )}
-              {errors[field as keyof FormData] && (
+              {errors[field as keyof IFormData] && (
                 <p className="text-red-500 text-xs mt-1">
-                  {errors[field as keyof FormData]}
+                  {errors[field as keyof IFormData]}
                 </p>
               )}
             </div>
