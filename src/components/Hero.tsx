@@ -34,12 +34,12 @@ function Hero() {
             className="relative w-6 h-6 group cursor-pointer"
           >
             <img
-              src="/public/svg/github-normal.svg"
+              src="/svg/github-normal.svg"
               alt="github"
               className="absolute inset-0 w-6 h-6 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
             />
             <img
-              src="/public/svg/github-active.svg"
+              src="/svg/github-active.svg"
               alt="github"
               className="absolute inset-0 w-6 h-6 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
             />
@@ -51,12 +51,12 @@ function Hero() {
             className="relative w-6 h-6 group cursor-pointer"
           >
             <img
-              src="/public/svg/linkedin-normal.svg"
+              src="/svg/linkedin-normal.svg"
               alt="linkedin"
               className="absolute inset-0 w-6 h-6 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
             />
             <img
-              src="/public/svg/linkedin-active.svg"
+              src="/svg/linkedin-active.svg"
               alt="linkedin"
               className="absolute inset-0 w-6 h-6 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
             />
@@ -133,7 +133,7 @@ function Hero() {
                           flex items-end z-[-1]"
           >
             <img
-              src="/public/imgs/adepitan.png"
+              src="/imgs/adepitan.png"
               alt="adepitan"
               className="h-[400px] object-cover mx-auto
                          sm:h-[480px]
@@ -141,7 +141,7 @@ function Hero() {
                          lg:h-[1000px] lg:mt-[-280px] object-top"
             />
             <img
-              src="/public/svg/single-ring.svg"
+              src="/svg/single-ring.svg"
               alt="ring"
               className="absolute -left-5 bottom-5 sm:-left-10 sm:bottom-10 md:-left-10 md:bottom-10"
             />
@@ -150,7 +150,7 @@ function Hero() {
       </div>
 
       <img
-        src="/public/svg/multi-rings.svg"
+        src="/svg/multi-rings.svg"
         alt="ring"
         className="absolute -left-[100%] top-20 w-[600px] pointer-events-none z-[-1]
                    sm:-left-[80%] sm:top-24 sm:w-[700px]
