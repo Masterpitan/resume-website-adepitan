@@ -72,7 +72,9 @@ function Projects() {
             >
               <div className="absolute top-0 left-0 w-full h-[400px] bg-[#202020d2] gap-6 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none group-hover:pointer-events-auto z-10 cursor-pointer">
                 <a
-                  href=""
+                  href={project?.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-fit flex flex-col gap-3 uppercase text-sm font-semibold"
                 >
                   <span>View Project</span>
