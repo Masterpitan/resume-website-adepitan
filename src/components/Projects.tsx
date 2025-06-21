@@ -11,7 +11,7 @@ const data: IProject[] = [
   {
     id: "1",
     sourceCode: "https://github.com/Masterpitan/ci-cd_repo",
-    url: "",
+    url: "http://3.215.175.126/",
     image: "/imgs/sightings-page.jpg",
     title: "AWS-Flask",
     stack: ["AWS", "Flask", "Terrafom"],
