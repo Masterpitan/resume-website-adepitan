@@ -14,7 +14,7 @@ const skills: ISkills[] = [
   },
   {
     id: "3",
-    tag: "Terrafom",
+    tag: "Terraform",
   },
   {
     id: "4",
@@ -28,6 +28,14 @@ const skills: ISkills[] = [
     id: "6",
     tag: "Docker",
   },
+  {
+    id: "7",
+    tag: "AWS AI/ML",
+  },
+  {
+    id: "8",
+    tag: "Kubernetes",
+  },
 ];
 
 function Skills() {
@@ -36,7 +44,7 @@ function Skills() {
       <div className="lg:max-w-[1110px] max-w-[90%] mx-auto ">
         <div className="bg-dark-200 w-full h-[2px]" />
 
-        <div className="grid lg:grid-cols-3 justify-items-center gap-y-5 md:justify-start grid-cols-1 md:grid-cols-2 lg:gap-50  md:gap-y-25 lg;mt-18 mt-6">
+        <div className="grid lg:grid-cols-4 justify-items-center gap-y-3 md:justify-start grid-cols-2 md:grid-cols-3 lg:gap-x-8 md:gap-x-6 gap-x-4 lg:mt-8 mt-6">
           {skills?.map(item => {
             return (
               <div key={item?.id}>
