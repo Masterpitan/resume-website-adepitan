@@ -57,11 +57,7 @@ function Skills() {
         </div>
       </div>
 
-      <img
-        src="/public/svg/multi-rings.svg"
-        alt="ring"
-        className="-right-[20%] bottom-10 absolute w-[830px]"
-      />
+
     </section>
   );
 }
