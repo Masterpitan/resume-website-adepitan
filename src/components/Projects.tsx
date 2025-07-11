@@ -20,7 +20,7 @@ const data: IProject[] = [
     id: "2",
     sourceCode: "https://github.com/Masterpitan/ci-cd_repo",
     url: "http://3.215.175.126/",
-    image: "/imgs/devops-project-showcase",
+    image: "/imgs/devops-project-showcase.PNG",
     title: "AWS-Flask",
     stack: ["AWS", "||", "Flask", "||", "Terraform"],
   },
@@ -29,7 +29,7 @@ const data: IProject[] = [
     sourceCode:
       "https://github.com/Masterpitan/projects_hub/tree/main/cafe_launch",
     url: "",
-    image: "/imgs/DYNAMIC TWO",
+    image: "/imgs/DYNAMIC TWO.PNG",
     title: "Cafe Launch",
     stack: ["CloudFormation", "||", "CloudFront", "||", "CodePipeline", "||", "S3"],
   },
