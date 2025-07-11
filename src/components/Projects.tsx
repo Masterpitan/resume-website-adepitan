@@ -20,7 +20,7 @@ const data: IProject[] = [
     id: "2",
     sourceCode: "https://github.com/Masterpitan/ci-cd_repo",
     url: "http://3.215.175.126/",
-    image: "/imgs/sightings-page.jpg",
+    image: "/imgs/devops-project-showcase",
     title: "AWS-Flask",
     stack: ["AWS", "||", "Flask", "||", "Terraform"],
   },
@@ -29,9 +29,9 @@ const data: IProject[] = [
     sourceCode:
       "https://github.com/Masterpitan/projects_hub/tree/main/cafe_launch",
     url: "",
-    image: "/imgs/sightings-page.jpg",
+    image: "/imgs/DYNAMIC TWO",
     title: "Cafe Launch",
-    stack: ["AWS"],
+    stack: ["CloudFormation", "||", "CloudFront", "||", "CodePipeline", "||", "S3"],
   },
   {
     id: "4",
@@ -49,7 +49,7 @@ const data: IProject[] = [
     url: "",
     image: "/imgs/sightings-page.jpg",
     title: "Bird App",
-    stack: ["AWS", "Dynamo Db"],
+    stack: ["Cloud9", "||", "CloudFront", "||", "Cognito", "||", "Dynamo Db"],
   },
 ];
 
