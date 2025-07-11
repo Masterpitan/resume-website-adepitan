@@ -10,14 +10,22 @@ interface IProject {
 const data: IProject[] = [
   {
     id: "1",
+    sourceCode: "https://github.com/Masterpitan/web-status-checker",
+    url: "https://b7fyr5eske.execute-api.us-east-1.amazonaws.com/prod/dashboard",
+    image: "/imgs/web-status-architecture.png",
+    title: "Web Status Checker",
+    stack: ["AWS Lambda", "||", "API Gateway", "||", "Terraform", "||", "Python"],
+  },
+  {
+    id: "2",
     sourceCode: "https://github.com/Masterpitan/ci-cd_repo",
     url: "http://3.215.175.126/",
     image: "/imgs/sightings-page.jpg",
     title: "AWS-Flask",
-    stack: ["AWS", "||", "Flask", "||", "Terrafom"],
+    stack: ["AWS", "||", "Flask", "||", "Terraform"],
   },
   {
-    id: "2",
+    id: "3",
     sourceCode:
       "https://github.com/Masterpitan/projects_hub/tree/main/cafe_launch",
     url: "",
@@ -26,7 +34,7 @@ const data: IProject[] = [
     stack: ["AWS"],
   },
   {
-    id: "3",
+    id: "4",
     sourceCode:
       "https://github.com/Masterpitan/projects_hub/tree/main/hng_internship",
     url: "",
@@ -35,7 +43,7 @@ const data: IProject[] = [
     stack: ["AWS", "NGINX", "Django"],
   },
   {
-    id: "4",
+    id: "5",
     sourceCode:
       "https://github.com/Masterpitan/projects_hub/tree/main/solutions_architecting",
     url: "",
