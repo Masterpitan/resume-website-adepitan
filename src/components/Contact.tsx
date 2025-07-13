@@ -9,9 +9,11 @@ type IFormData = {
 
 type Errors = Partial<Record<keyof IFormData, string>>;
 
-const SERVICE_ID = "service_iwmdoyq";
-const TEMPLATE_ID = "template_t3uevr2";
-const PUBLIC_KEY = "3Ay72OyUK2wKU8mGw";
+
+
+const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
 function Contact() {
   const [form, setForm] = useState<IFormData>({
