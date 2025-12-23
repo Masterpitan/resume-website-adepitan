@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "adepitan-resume-bucket"
+    bucket = "adepitan-resume-state"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
