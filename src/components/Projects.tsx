@@ -10,22 +10,30 @@ interface IProject {
 const data: IProject[] = [
   {
     id: "1",
+    sourceCode: "https://github.com/Masterpitan/alx-project-nexus",
+    url: "",
+    image: "/imgs/Screenshot (1).png",
+    title: "ALX Project Nexus",
+    stack: ["Python", "||", "Django", "||", "MySQL", "||", "GraphQL"],
+  },
+  {
+    id: "2",
     sourceCode: "https://github.com/Masterpitan/web-status-checker",
-    url: "https://b7fyr5eske.execute-api.us-east-1.amazonaws.com/prod/dashboard",
+    url: "",
     image: "/imgs/web-status-architecture.png",
     title: "Web Status Checker",
     stack: ["AWS Lambda", "||", "API Gateway", "||", "Terraform", "||", "Python"],
   },
   {
-    id: "2",
+    id: "3",
     sourceCode: "https://github.com/Masterpitan/ci-cd_repo",
-    url: "http://3.215.175.126/",
+    url: "",
     image: "/imgs/devops-project-showcase.PNG",
     title: "AWS-Flask",
     stack: ["AWS", "||", "Flask", "||", "Terraform"],
   },
   {
-    id: "3",
+    id: "4",
     sourceCode:
       "https://github.com/Masterpitan/projects_hub/tree/main/cafe_launch",
     url: "",
@@ -34,7 +42,7 @@ const data: IProject[] = [
     stack: ["CloudFormation", "||", "CloudFront", "||", "CodePipeline", "||", "S3"],
   },
   {
-    id: "4",
+    id: "5",
     sourceCode:
       "https://github.com/Masterpitan/projects_hub/tree/main/hng_internship",
     url: "",
@@ -43,7 +51,7 @@ const data: IProject[] = [
     stack: ["AWS", "NGINX", "Django"],
   },
   {
-    id: "5",
+    id: "6",
     sourceCode:
       "https://github.com/Masterpitan/projects_hub/tree/main/solutions_architecting",
     url: "",

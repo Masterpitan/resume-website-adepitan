@@ -1,54 +1,72 @@
-# React + TypeScript + Vite
+# Resume Website - Adepitan Adetunji
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my professional experience, projects, and skills as a DevOps Engineer and AWS Solutions Architect.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React + TypeScript + Vite
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Deployment**: AWS S3 Static Website Hosting
+- **CI/CD**: GitHub Actions
+- **Infrastructure**: Terraform
 
-## Expanding the ESLint configuration
+## 📋 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Responsive design optimized for all devices
+- Interactive project showcase with GitHub integration
+- Professional experience timeline
+- Skills and certifications display
+- Contact form integration
+- Smooth animations and transitions
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🏗️ Infrastructure
+
+This website is deployed using:
+- **AWS S3** for static website hosting
+- **Terraform** for infrastructure as code
+- **GitHub Actions** for automated deployment
+
+## 🚀 Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📁 Project Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
 ```
+src/
+├── components/
+│   ├── Hero.tsx
+│   ├── Experience.tsx
+│   ├── Projects.tsx
+│   ├── Skills.tsx
+│   ├── Certifications.tsx
+│   └── Contact.tsx
+├── App.tsx
+└── main.tsx
+
+terraformIAC/
+├── main.tf
+├── variables.tf
+└── outputs.tf
+```
+
+## 🔧 Deployment
+
+The website automatically deploys to AWS S3 when changes are pushed to the main branch via GitHub Actions.
+
+---
+
+**Built with ❤️ by Adepitan Adetunji**
