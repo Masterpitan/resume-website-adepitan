@@ -10,9 +10,20 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: "ALX-AWS Programme Volunteer Mentor",
+    title: "DevOps Engineer",
+    company: "HNG13",
+    period: "October 2025 - December 2025",
+    description: "Spearheaded infrastructure automation and deployment optimization for high-scale applications, ensuring robust system reliability and operational excellence.",
+    highlights: [
+      "Led a cross-functional team of 10+ engineers to architect high-availability infrastructure, achieving 99.9% uptime during high-traffic intervals",
+      "Automated CI/CD pipelines using GitHub Actions, reducing deployment lead time by 40% for microservices",
+      "Implemented comprehensive monitoring and alerting systems to ensure real-time incident detection and resolution"
+    ]
+  },
+  {
+    title: "AWS Technical Mentor",
     company: "ALX Africa",
-    period: "March 2025 - Present",
+    period: "June 2025 - November 2025",
     description: "Leading and mentoring aspiring cloud professionals in AWS technologies, fostering the next generation of cloud architects and engineers.",
     highlights: [
       "Mentoring 50+ students in AWS cloud fundamentals and best practices",
@@ -23,7 +34,7 @@ const experiences: ExperienceItem[] = [
   {
     title: "Backend-Pro Trainee (SQL, Python, DevOps)",
     company: "ALX Africa",
-    period: "June 2025 - Present",
+    period: "June 2025 - December 2025",
     description: "Mastering advanced backend development with focus on database optimization, Python frameworks, and DevOps automation practices.",
     highlights: [
       "Building scalable backend systems with Python and SQL",
@@ -32,9 +43,9 @@ const experiences: ExperienceItem[] = [
     ]
   },
   {
-    title: "AWS Solutions Architect Trainee",
+    title: "AWS Solutions Architect",
     company: "ALX Africa",
-    period: "June 2024 - February 2025",
+    period: "January 2024 - February 2025",
     description: "Intensive training in AWS cloud architecture, gaining expertise in designing resilient, scalable, and cost-effective cloud solutions.",
     highlights: [
       "Designed and deployed multi-tier cloud architectures",
