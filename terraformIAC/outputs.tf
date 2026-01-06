@@ -7,3 +7,8 @@ output "bucket_name" {
   description = "S3 bucket name"
   value       = aws_s3_bucket.website_bucket.id
 }
+
+output "cloudfront_url" {
+  description = "CloudFront distribution URL (HTTPS)"
+  value       = "https://${aws_cloudfront_distribution.website_cdn.domain_name}"
+}
