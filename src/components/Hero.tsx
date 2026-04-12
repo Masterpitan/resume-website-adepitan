@@ -108,9 +108,7 @@ function Hero() {
           </h1>
 
           <p className="mt-6 md:mt-7 lg:mt-11 text-[16px] md:text-md text-white max-w-[300px] sm:max-w-[400px] md:max-w-[445px] md:tracking-wide">
-            Adept AWS Solutions Architect Associate with hands-on experience in
-            designing and deploying scalable cloud architectures. Proficient in
-            CI/CD Pipelines and DevOps practices.
+            DevOps Engineer and AWS Solutions Architect operating at the intersection of Cybersecurity, AI, and Cloud Architecture — building secure, intelligent, and scalable systems.
           </p>
 
           <div className="mt-8 md:mt-10">
